@@ -1,0 +1,92 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    height: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+  
+text-underline-offset: 3px;
+color: white;
+font-weight: 600;
+
+}
+#box1{
+    text-decoration: underline;
+}
+#box2{
+    text-decoration: none;
+    font-size: 40px;
+    text-decoration:underline;
+}
+#box2 span{
+color: orange;
+text-decoration: underline;
+}
+#box3{
+    text-decoration: underline; 
+}
+#box4{
+    text-decoration: underline; 
+    color: orange; 
+}
+#box5{
+    text-decoration: underline; 
+    color: orange; 
+}
+.spacer{
+    height: 100px;
+    background-color: orange;
+}
+.container{
+    padding-bottom: 200px;
+    padding-top: 200px;
+    padding-left: 0;
+    padding-right: 0;
+    margin:0;
+    width: 100%;
+    justify-content:space-between;
+    display:flex;
+}
+.card{
+    padding:0;
+    width: 250px;
+    align-items: center;
+    
+}
+.card-body{
+ background-color: purple;
+ 
+}
+.btn.btn-primary{
+   background-color: orange;
+   border-color: black;
+   
+   padding: 10px;
+}
+
+.card-body img{
+    width: 225px;
+    padding: 10px;
+    
+    
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    height: 400px;
+    background-color: orange;
+}
+.h5.card-title{
+color: white;
+}
+.card-text{
+    color: white;
+}
